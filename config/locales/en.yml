@@ -1,0 +1,7 @@
+# English strings go here for Rails i18n
+en:
+  # my_label: "My label"
+  plugins:
+    api_expose_custom_fields:
+      plugin_enabled: "Plugin enabled"
+      plugin_for: "Plugin for"

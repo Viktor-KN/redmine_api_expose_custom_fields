@@ -1,0 +1,8 @@
+<p>
+  <label><span><%= l('plugins.api_expose_custom_fields.plugin_enabled') %></span></label>
+  <%= check_box_tag "settings[ecf_api_plugin_enabled]", true, @settings[:ecf_api_plugin_enabled] %>
+</p>
+<p>
+  <label><span><%= l('plugins.api_expose_custom_fields.plugin_for') %></span></label>
+  <%= select_tag "settings[ecf_api_for]", options_for_select(%w(enumeration user version), @settings[:ecf_api_for]), multiple: true %>
+</p>
